@@ -439,6 +439,24 @@ class Home extends StatelessWidget {
               height: 30,
               width: 300,
               color: Colors.blue,
+            ),
+
+
+            //New column and container
+
+            Column(
+              children: [
+                Column(
+                  children: [
+                    Container(
+                      height: 30,
+                      width: 300,
+                      color: Colors.blue,
+                      child: Text("My name is imteaij mahie"),
+                    )
+                  ],
+                )
+              ],
             )
           ]),
         ),
