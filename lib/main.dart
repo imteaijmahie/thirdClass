@@ -432,6 +432,14 @@ class Home extends StatelessWidget {
                 )
               ],
             ),
+
+
+            //new container add
+            Container(
+              height: 30,
+              width: 300,
+              color: Colors.blue,
+            )
           ]),
         ),
         
